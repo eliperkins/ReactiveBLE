@@ -191,6 +191,7 @@
 				}]
 				subscribe:subscriber];
 		}];
+		return disposable;
 	}]
 	setNameWithFormat:@"RBTCentralManager -retrieveConnectedPeripheralsWithServices: %@", services];
 }
