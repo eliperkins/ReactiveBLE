@@ -72,8 +72,9 @@
 
 - (RACSignal *)scanForPeripheralsWithServices:(NSArray *)services options:(NSDictionary *)options
 {
-	return [[[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
-		RACSerialDisposable *disposable = [[RACSerialDisposable alloc] init];
+    @weakify(self);
+    return [[[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        @strongify(self);
 		[self.CBScheduler schedule:^{
 			[self.manager scanForPeripheralsWithServices:services options:options];
 			
