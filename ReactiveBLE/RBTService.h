@@ -3,6 +3,12 @@
 // Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE
+#import <CoreBluetooth/CoreBluetooth.h>
+#else
+#import <IOBluetooth/IOBluetooth.h>
+#endif
+
 @interface RBTService : NSObject
 
 @property(strong, readwrite, nonatomic) CBUUID *UUID;

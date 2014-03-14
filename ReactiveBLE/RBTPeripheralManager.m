@@ -90,8 +90,4 @@
 
 #pragma mark - Services
 
-- (RACSignal *)addService:(RBTService *)service {
-
-}
-
 @end
