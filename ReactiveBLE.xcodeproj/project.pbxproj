@@ -28,6 +28,14 @@
 		03B98D8818BED7F100366C75 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B98D8718BED7F100366C75 /* SenTestingKit.framework */; };
 		03B98D8918BEDCA100366C75 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0308E16218BBFC1F0094E105 /* IOBluetooth.framework */; };
 		03B98D8B18BEE25500366C75 /* ReactiveBLE.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0308E0BA18BBF7850094E105 /* ReactiveBLE.framework */; };
+		2D037C8F18C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D037C8D18C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.h */; };
+		2D037C9018C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D037C8E18C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.m */; };
+		2D9DB25B18C11F3900453804 /* RBTPeripheralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9DB25918C11F3900453804 /* RBTPeripheralManager.h */; };
+		2D9DB25C18C11F3900453804 /* RBTPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9DB25A18C11F3900453804 /* RBTPeripheralManager.m */; };
+		60BFF1459B71647B15E8D26D /* RBTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BFFB9AB48A49D37ECBBE20 /* RBTService.m */; };
+		60BFF3C0D7B36AF32259BDE2 /* RBTCharacteristic.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BFFE58735F36DD5B75B690 /* RBTCharacteristic.h */; };
+		60BFF8BCB1F9239632C62AB8 /* RBTCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BFFAE91703CBF01F0384CD /* RBTCharacteristic.m */; };
+		60BFFEDD9B7B011DB21E7E45 /* RBTService.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BFFCFBFC804BC3628F7482 /* RBTService.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -217,6 +225,14 @@
 		03B98D8418BED3BE00366C75 /* RBTCentralManagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTCentralManagerSpec.m; sourceTree = "<group>"; };
 		03B98D8618BED42E00366C75 /* ReactiveBLETests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReactiveBLETests-Prefix.pch"; sourceTree = "<group>"; };
 		03B98D8718BED7F100366C75 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D037C8D18C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RBTPeripheralManager+DelegateStubs.h"; sourceTree = "<group>"; };
+		2D037C8E18C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RBTPeripheralManager+DelegateStubs.m"; sourceTree = "<group>"; };
+		2D9DB25918C11F3900453804 /* RBTPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTPeripheralManager.h; sourceTree = "<group>"; };
+		2D9DB25A18C11F3900453804 /* RBTPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTPeripheralManager.m; sourceTree = "<group>"; };
+		60BFFAE91703CBF01F0384CD /* RBTCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTCharacteristic.m; sourceTree = "<group>"; };
+		60BFFB9AB48A49D37ECBBE20 /* RBTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTService.m; sourceTree = "<group>"; };
+		60BFFCFBFC804BC3628F7482 /* RBTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTService.h; sourceTree = "<group>"; };
+		60BFFE58735F36DD5B75B690 /* RBTCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTCharacteristic.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +313,14 @@
 				037D986E18BE832B00586C5C /* RBTCentralManager.m */,
 				03706B2218BF9CDC00C2AC11 /* RBTCentralManager+DelegateStubs.h */,
 				03706B2318BF9CDC00C2AC11 /* RBTCentralManager+DelegateStubs.m */,
+				2D9DB25918C11F3900453804 /* RBTPeripheralManager.h */,
+				2D9DB25A18C11F3900453804 /* RBTPeripheralManager.m */,
+				2D037C8D18C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.h */,
+				2D037C8E18C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.m */,
+				60BFFB9AB48A49D37ECBBE20 /* RBTService.m */,
+				60BFFCFBFC804BC3628F7482 /* RBTService.h */,
+				60BFFAE91703CBF01F0384CD /* RBTCharacteristic.m */,
+				60BFFE58735F36DD5B75B690 /* RBTCharacteristic.h */,
 			);
 			path = ReactiveBLE;
 			sourceTree = "<group>";
@@ -396,7 +420,11 @@
 				037D986F18BE832B00586C5C /* RBTCentralManager.h in Headers */,
 				03B98D5818BEC84100366C75 /* ReactiveBLE.h in Headers */,
 				03706B2418BF9CDC00C2AC11 /* RBTCentralManager+DelegateStubs.h in Headers */,
+				2D9DB25B18C11F3900453804 /* RBTPeripheralManager.h in Headers */,
+				2D037C8F18C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.h in Headers */,
 				03B98D4418BEC65D00366C75 /* EXTScope.h in Headers */,
+				60BFFEDD9B7B011DB21E7E45 /* RBTService.h in Headers */,
+				60BFF3C0D7B36AF32259BDE2 /* RBTCharacteristic.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,9 +651,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D037C9018C12C5F00BAE65A /* RBTPeripheralManager+DelegateStubs.m in Sources */,
+				2D9DB25C18C11F3900453804 /* RBTPeripheralManager.m in Sources */,
 				03706B2518BF9CDC00C2AC11 /* RBTCentralManager+DelegateStubs.m in Sources */,
 				03B98D4518BEC65D00366C75 /* EXTScope.m in Sources */,
 				037D987018BE832B00586C5C /* RBTCentralManager.m in Sources */,
+				60BFF1459B71647B15E8D26D /* RBTService.m in Sources */,
+				60BFF8BCB1F9239632C62AB8 /* RBTCharacteristic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

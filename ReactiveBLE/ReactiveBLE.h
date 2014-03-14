@@ -7,3 +7,4 @@
 //
 
 #import "RBTCentralManager.h"
+#import "RBTPeripheralManager.h"
